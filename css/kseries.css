@@ -1,0 +1,92 @@
+body{
+    background:linear-gradient( to right, rgba(0, 0, 0, 0.577),rgb(0 0 0 / 0)) ,url("dummy.webp");
+    background-size: cover;
+    
+    
+    
+
+    
+}
+.title{
+    
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    padding:0px 20px;
+    display:flex;
+    align-items: center;
+    
+}
+.title img{
+    width:340px;
+    
+}
+.button {
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    margin: 0px 8px;
+    cursor: pointer;
+   
+    border-radius: 50PX;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+  }
+  .button{background-color: #9F44D3 ;
+    background-image: -webkit-linear-gradient(top, #9b34db, #9529b9);
+    background-image: -moz-linear-gradient(top, #9534db, #7329b9);
+    background-image: -ms-linear-gradient(top, #9e34db, #7f29b9);
+    background-image: -o-linear-gradient(top, #ae34db, #7629b9);
+    background-image: linear-gradient(to bottom, #a134db, #7d29b9);
+  }
+
+  .button:hover{
+    background-color: rgb(220, 140, 242);
+    background-image: -webkit-linear-gradient(top, #df91f5, #a532cc);
+    background-image: -moz-linear-gradient(top, #d87af0, #c44af0);
+    background-image: -ms-linear-gradient(top, #a959d7, #a03ae3);
+    background-image: -o-linear-gradient(top, #ca75e9, #9537b5);
+    background-image: linear-gradient(to bottom, #873d9f, #830e9d);
+    
+  }
+.content{
+  height: fit-content;
+  width: fit-content;
+  margin-left: 39.2%;
+  margin-top: 10%;
+  color: white;
+}
+.content h1{
+  font-weight: bold;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subcontainer {
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  margin-left: 36%;
+  height: fit-content;
+  width: fit-content;
+  color: white;
+  
+  
+}
+main{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+  
+ 
+    
+
+
